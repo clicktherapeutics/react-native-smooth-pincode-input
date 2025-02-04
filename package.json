@@ -1,5 +1,5 @@
 {
-  "name": "@click-therapeutics-org/react-native-smooth-pincode-input",
+  "name": "@clicktherapeutics/react-native-smooth-pincode-input",
   "version": "1.1.1",
   "description": "A cross-platform, smooth, lightweight, customizable PIN code input component for React Native.",
   "main": "src/index.js",
@@ -35,5 +35,8 @@
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "metro-react-native-babel-preset": "^0.63.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
